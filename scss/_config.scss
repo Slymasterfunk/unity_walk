@@ -1,0 +1,25 @@
+section {
+  position: relative;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+}
+
+.scroll-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fadeBounce 5s infinite;
+}
+/* stop body scroll */
+.stop-scrolling {
+  overflow: hidden;
+}
+
+/* hide mobile main menu items */
+.mobile-only {
+  display: none;
+}
