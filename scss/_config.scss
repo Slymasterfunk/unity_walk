@@ -1,3 +1,8 @@
+.container {
+  padding: 50px 20px;
+  max-width: 700px;
+}
+
 section {
   position: relative;
   height: 100vh;
@@ -7,12 +12,40 @@ section {
   text-transform: uppercase;
 }
 
+.bg-img {
+  background-image: url('../img/starry_bg.png');
+}
+
+.section-animate {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.section-inner-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+
+  h3 {
+    font-size: 100px;
+    margin-bottom: 15px;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  p {
+    font-size: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+  }
+}
 .scroll-arrow {
   position: absolute;
   bottom: 50px;
-  left: 50%;
+  left: 46%;
   transform: translateX(-50%);
-  animation: fadeBounce 5s infinite;
+  animation: fadeBounce 4s infinite;
 }
 /* stop body scroll */
 .stop-scrolling {
