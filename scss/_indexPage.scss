@@ -10,6 +10,13 @@
 /* Background Images */
 .section-a {
   background-image: url('../img/unity_walk.png');
+
+  .title {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .section-b,
 .section-c,
