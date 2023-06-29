@@ -79,6 +79,9 @@ section {
 
 p {
   font-size: 20px;
+  span {
+    color: $primary-color;
+  }
 }
 
 footer {
